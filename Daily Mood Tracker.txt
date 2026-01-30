@@ -1,0 +1,159 @@
+
+## 🔥 New Features to Add to React.js Web Application (DMT)
+
+### **1. Smart Mood Prediction (Web-Only Bonus Feature)**
+
+**Why it’s strong:** Shows advanced thinking + data-driven UI.
+
+**Feature Description:**
+
+* Based on past 14–30 days data, the app predicts **“Tomorrow’s Mood Probability”**
+* Example output:
+
+  > *“Based on your sleep + workload patterns, tomorrow may feel 😐 (62%)”*
+
+**React Implementation Ideas:**
+
+* Custom hook: `useMoodPrediction()`
+* Display using:
+
+  * Progress bar
+  * Emoji + percentage
+* Runs fully client-side for privacy
+
+---
+
+### **2. Habit Heatmap (GitHub-Style Calendar View)**
+
+**Why interviewers love this:** Visual analytics + UX polish.
+
+**Feature Description:**
+
+* A **365-day heatmap** showing:
+
+  * Green → Positive days
+  * Yellow → Neutral
+  * Red → Low mood
+* Hover shows:
+
+  * Mood score
+  * Tags
+  * Notes preview
+
+**Tech (React):**
+
+* SVG-based calendar grid
+* Tooltip using React Portal
+* Optional: D3.js (but can be pure React)
+
+---
+
+### **3. Focus Mode (Distraction-Free Journaling)**
+
+**Problem Solved:** Digital burnout (ties back to your market gap 🔥)
+
+**Feature Description:**
+
+* Full-screen minimal UI
+* No charts, no notifications
+* Just:
+
+  * Mood slider
+  * Journal text
+  * Soft background animation
+
+**React UX Ideas:**
+
+* Toggle state via Context API
+* Keyboard shortcut: `Ctrl + J`
+* CSS: backdrop blur + smooth transitions
+
+---
+
+### **4. Emotion Trends Story (Auto-Generated Weekly Summary)**
+
+**This feels very “product company” level**
+
+**Feature Description:**
+Every Sunday, user sees a **Story-style summary**:
+
+* “This week you felt happiest on Wednesday”
+* “Work tag appeared on 5 low-mood days”
+* “Sleep improved mood by 23%”
+
+**Web UI:**
+
+* Slide cards (carousel)
+* Shareable as image (Canvas API)
+
+---
+
+### **5. Advanced Search & Filter (Power Users)**
+
+**Perfect for desktop web users**
+
+**Feature Description:**
+Search mood history by:
+
+* Mood range (7–10)
+* Tags (Work + Sleep)
+* Date range
+* Keywords inside notes
+
+**React Implementation:**
+
+* Debounced search
+* Local indexed cache
+* Filter chips UI
+
+---
+
+### **6. Offline-First Web App (PWA Feature)**
+
+**Huge plus for React interviews**
+
+**Feature Description:**
+
+* App works without internet
+* Entries sync when online
+* Shows “Offline Mode Active” banner
+
+**Tech:**
+
+* Service Workers
+* IndexedDB
+* Sync queue logic
+
+---
+
+### **7. Mood-Based Music Suggestion (Optional, Fun Feature 🎧)**
+
+**Lightweight + delightful**
+
+**Feature Description:**
+
+* Based on mood:
+
+  * 😔 → Calm playlist
+  * 😊 → Energetic focus music
+* Uses embedded Spotify/YouTube preview
+
+**Important:**
+No personal data sent—only mood category.
+
+---
+
+## 🧩 Updated PRD Section (Add This)
+
+### **4.3 Advanced Web-Exclusive Features**
+
+* Mood Prediction Engine
+* Habit Heatmap Visualization
+* Focus Mode Journaling
+* Weekly Emotion Story
+* Offline-First PWA Support
+* Advanced Search & Filters
+
+---
+
+
